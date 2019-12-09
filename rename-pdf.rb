@@ -2,7 +2,7 @@ require "formula"
 
 class RenamePdf < Formula
   homepage "https://github.com/mat/pdfrenamer"
-  url "https://.....pdfrenamer.jar"
+  url "https://github.com/mat/homebrew-rename-pdf/releases/download/0.1/pdfrenamer.jar"
   sha256 "b91a5c1522ced7de9a3b0f243c5cbbe064cc04eb792b49eafe185fc363ae14e0"
 
   def install
