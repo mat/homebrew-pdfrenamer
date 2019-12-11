@@ -6,8 +6,8 @@ class Pdfrenamer < Formula
   sha256 "54495358a4de3d5ca7fcb5d35adcbe3ba5ffe12f7b0edba2c985bd5c326a8c9f"
 
   def install
-      inreplace "brew/pdfrenamerx", "##PREFIX##", "#{prefix}"
+      inreplace "brew/pdfrenamer", "##PREFIX##", "#{prefix}"
       prefix.install "pdfrenamer.jar"
-      bin.install "brew/pdfrenamerx"
+      bin.install "brew/pdfrenamer"
   end
 end
