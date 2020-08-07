@@ -1,8 +1,8 @@
 class Pdfrenamer < Formula
   desc "Rename PDFs based on content"
   homepage "https://github.com/mat/pdfrenamer"
-  url "https://github.com/mat/homebrew-pdfrenamer/releases/download/0.2/pdfrenamer.zip"
-  sha256 "6312fa4ec736a593ef3361c96d3231c93e6a7e6adb256d0441dcb8ab04e55436"
+  url "https://github.com/mat/homebrew-pdfrenamer/releases/download/0.3/pdfrenamer.zip"
+  sha256 "68275d6b027da2d8534a54f4d02bd2b07f4282df55af3cb14be8eebc6bc3d1d3"
 
   depends_on :java => "1.8+"
 
